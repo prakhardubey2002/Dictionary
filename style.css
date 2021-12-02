@@ -11,9 +11,11 @@
 body{
     font-family: 'Poppins',sans-serif;
     min-height: 100vh;
-    background: #12c2e9;  
-    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
-    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    background: #5433FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
 }
 nav{
     background: black;
@@ -82,4 +84,19 @@ section.data p.def{
     font-size: 20px;
     color: rgb(0, 0, 0);
     line-height: 1.6;
+}
+.suggested{
+    background: #A5FECB;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-family: sans-serif;
+    padding: 2px 10px;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-top: 5px;
+    display: inline-block;
+}
+.bac{
+    background: #A5FECB;
+
 }
